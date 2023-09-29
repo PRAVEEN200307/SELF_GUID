@@ -1,0 +1,35 @@
+.img-rounded {
+    border-radius:50%;
+}
+.bordered{
+  border:0.5px solid rgb(246, 222, 222);
+}
+
+
+@media(max-width:540px){
+    .profile-info{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
+       padding:10px;
+    }
+    .profile-info p{
+        text-align:justify;
+        padding:10px;
+        width:340px;
+    }
+    /* section newlatter */
+    .newlatter p{
+        text-align: center;
+    }
+    /* section c */
+    .sectionc .row{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin:0 auto;
+    }
+   
+    
+}
